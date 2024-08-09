@@ -16,7 +16,7 @@ public class Client {
             // Reading response from the server
             int ch;
             while ((ch = in.read()) != -1) {
-                System.out.print((char) ch);J
+                System.out.print((char) ch);
             }
 
         } catch (Exception e) {
